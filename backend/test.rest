@@ -1,0 +1,10 @@
+POST http://localhost:3001/addtask
+Content-Type: application/json
+
+{
+    "title": "Study Maths",
+    "desc": "In a months time you are expected to study Maths modules 2 - 3."
+}
+
+#####
+GET http://localhost:3001/tasks
